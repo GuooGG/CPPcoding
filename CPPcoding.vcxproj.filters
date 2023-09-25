@@ -43,10 +43,16 @@
       <Filter>源文件\数据结构与算法</Filter>
     </ClCompile>
     <ClCompile Include="hammingDistance.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\数据结构与算法</Filter>
     </ClCompile>
     <ClCompile Include="MinStack.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\数据结构与算法</Filter>
+    </ClCompile>
+    <ClCompile Include="binTreeNode.cpp">
+      <Filter>源文件\数据结构与算法\工具类</Filter>
+    </ClCompile>
+    <ClCompile Include="binaryTree.cpp">
+      <Filter>源文件\数据结构与算法</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -66,7 +72,13 @@
       <Filter>头文件\数据结构与算法</Filter>
     </ClInclude>
     <ClInclude Include="MinStack.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\数据结构与算法</Filter>
+    </ClInclude>
+    <ClInclude Include="binTreeNode.h">
+      <Filter>头文件\数据结构与算法\工具类</Filter>
+    </ClInclude>
+    <ClInclude Include="binaryTree.h">
+      <Filter>头文件\数据结构与算法</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

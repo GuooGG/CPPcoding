@@ -1,8 +1,10 @@
 ﻿#include <iostream>
-#include"hammingDistance.h"
+#include"binaryTree.h"
 using namespace std;
 int main()
 {
-    cout << hammingDistance(10 , 6);
+    binaryTree tree;
+    tree.buildCase();
+    tree.printTree();
     return 0;
 }

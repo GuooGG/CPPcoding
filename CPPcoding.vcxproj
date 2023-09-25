@@ -139,6 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="binaryTree.cpp" />
+    <ClCompile Include="binTreeNode.cpp" />
     <ClCompile Include="CPPcoding.cpp" />
     <ClCompile Include="BST2LinkedList.cpp" />
     <ClCompile Include="DoublyLinkedKeyNode.cpp" />
@@ -148,6 +150,8 @@
     <ClCompile Include="MinStack.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="binaryTree.h" />
+    <ClInclude Include="binTreeNode.h" />
     <ClInclude Include="BST2LinkedList.h" />
     <ClInclude Include="DoublyLinkedKeyNode.h" />
     <ClInclude Include="hammingDistance.h" />
