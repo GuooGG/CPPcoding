@@ -32,3 +32,17 @@ int hammingDistanceByBK(int x, int y)
 	}
 	return ret;
 }
+
+int totalHammingDistance(std::vector<int>& nums)
+{
+	int ret = 0;
+	int n = nums.size();
+	for (int i = 0; i < 30; i++) {
+		int c = 0;
+		for (int val : nums) {
+			c += (val >> i) & 1;
+		}
+		ret += c * (n - c);
+	}
+	return ret;
+}
