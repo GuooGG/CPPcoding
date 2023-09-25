@@ -19,6 +19,12 @@
     <Filter Include="源文件\数据结构与算法">
       <UniqueIdentifier>{9a025125-1782-4363-9fe2-1d534a19e41b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\数据结构与算法\工具类">
+      <UniqueIdentifier>{3240a57a-ed8d-49f1-bb0f-50a46a00af5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构与算法\工具类">
+      <UniqueIdentifier>{f16c66eb-d2e2-4c0b-a849-c9e82a16859b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPPcoding.cpp">
@@ -30,6 +36,12 @@
     <ClCompile Include="LRUCache.cpp">
       <Filter>源文件\数据结构与算法</Filter>
     </ClCompile>
+    <ClCompile Include="DoublyLinkedKeyNode.cpp">
+      <Filter>源文件\数据结构与算法\工具类</Filter>
+    </ClCompile>
+    <ClCompile Include="LFUCache.cpp">
+      <Filter>源文件\数据结构与算法</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BST2LinkedList.h">
@@ -37,6 +49,12 @@
     </ClInclude>
     <ClInclude Include="LRUCache.h">
       <Filter>头文件\数据结构与算法</Filter>
+    </ClInclude>
+    <ClInclude Include="LFUCache.h">
+      <Filter>头文件\数据结构与算法</Filter>
+    </ClInclude>
+    <ClInclude Include="DoublyLinkedKeyNode.h">
+      <Filter>头文件\数据结构与算法\工具类</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

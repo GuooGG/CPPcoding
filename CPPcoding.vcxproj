@@ -141,10 +141,14 @@
   <ItemGroup>
     <ClCompile Include="CPPcoding.cpp" />
     <ClCompile Include="BST2LinkedList.cpp" />
+    <ClCompile Include="DoublyLinkedKeyNode.cpp" />
+    <ClCompile Include="LFUCache.cpp" />
     <ClCompile Include="LRUCache.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BST2LinkedList.h" />
+    <ClInclude Include="DoublyLinkedKeyNode.h" />
+    <ClInclude Include="LFUCache.h" />
     <ClInclude Include="LRUCache.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

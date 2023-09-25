@@ -1,12 +1,5 @@
 #include"LRUCache.h"
 
-Node::Node(int k, int v)
-	:key(k)
-	,value(v)
-{
-	prev = this;
-	next = this;
-}
 
 void LRUCache::remove(Node* node)
 {
@@ -36,7 +29,7 @@ Node* LRUCache::getNode(int key)
 
 LRUCache::LRUCache(int capacity)
 	:mCapacity(capacity)
-	,dummy(new Node())
+	, dummy(new Node())
 {
 	dummy->prev = dummy;
 	dummy->next = dummy;

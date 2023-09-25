@@ -1,12 +1,7 @@
 #pragma once
 #include<unordered_map>
-//双向链表节点
-class Node {
-public:
-	int key, value;
-	Node* prev, * next;
-	Node(int k = 0, int v = 0);
-};
+#include"DoublyLinkedKeyNode.h"
+
 class LRUCache {
 private:
 	//LRU缓存容量
