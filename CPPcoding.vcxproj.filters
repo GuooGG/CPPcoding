@@ -45,6 +45,9 @@
     <ClCompile Include="hammingDistance.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MinStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BST2LinkedList.h">
@@ -61,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="hammingDistance.h">
       <Filter>头文件\数据结构与算法</Filter>
+    </ClInclude>
+    <ClInclude Include="MinStack.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

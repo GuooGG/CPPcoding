@@ -145,6 +145,7 @@
     <ClCompile Include="hammingDistance.cpp" />
     <ClCompile Include="LFUCache.cpp" />
     <ClCompile Include="LRUCache.cpp" />
+    <ClCompile Include="MinStack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BST2LinkedList.h" />
@@ -152,6 +153,7 @@
     <ClInclude Include="hammingDistance.h" />
     <ClInclude Include="LFUCache.h" />
     <ClInclude Include="LRUCache.h" />
+    <ClInclude Include="MinStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

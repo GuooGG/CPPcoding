@@ -1,5 +1,4 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 #include"hammingDistance.h"
 using namespace std;
 int main()
