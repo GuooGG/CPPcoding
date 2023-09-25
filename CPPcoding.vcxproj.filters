@@ -13,18 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\数据结构与算法">
+      <UniqueIdentifier>{bfb8d9aa-5827-4391-bef1-aa4977e119d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构与算法">
+      <UniqueIdentifier>{9a025125-1782-4363-9fe2-1d534a19e41b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPPcoding.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="BST2LinkedList.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\数据结构与算法</Filter>
+    </ClCompile>
+    <ClCompile Include="LRUCache.cpp">
+      <Filter>源文件\数据结构与算法</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BST2LinkedList.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\数据结构与算法</Filter>
+    </ClInclude>
+    <ClInclude Include="LRUCache.h">
+      <Filter>头文件\数据结构与算法</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

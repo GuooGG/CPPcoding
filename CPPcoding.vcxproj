@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="CPPcoding.cpp" />
     <ClCompile Include="BST2LinkedList.cpp" />
+    <ClCompile Include="LRUCache.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BST2LinkedList.h" />
+    <ClInclude Include="LRUCache.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
