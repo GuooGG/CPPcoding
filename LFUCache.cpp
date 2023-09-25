@@ -16,6 +16,7 @@ Node* LFUCache::getNode(int key)
 	}
 	node->freq = (node->freq) + 1;
 	push(node->freq, node);
+	return node;
 }
 
 Node* LFUCache::newList()
@@ -72,7 +73,7 @@ void LFUCache::put(int key, int value)
 		remove(backNode);
 		delete backNode;
 	}
-	Node* node = new Node(key, value);
+	node = new Node(key, value);
 	keyToNode[key] = node;
 	push(1, node);
 	minFreq = 1;

@@ -42,6 +42,9 @@
     <ClCompile Include="LFUCache.cpp">
       <Filter>源文件\数据结构与算法</Filter>
     </ClCompile>
+    <ClCompile Include="hammingDistance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BST2LinkedList.h">
@@ -55,6 +58,9 @@
     </ClInclude>
     <ClInclude Include="DoublyLinkedKeyNode.h">
       <Filter>头文件\数据结构与算法\工具类</Filter>
+    </ClInclude>
+    <ClInclude Include="hammingDistance.h">
+      <Filter>头文件\数据结构与算法</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
