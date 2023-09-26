@@ -33,19 +33,13 @@ void binaryTree::insert(binTreeNode* parent, int value, bool isLeft)
 void binaryTree::buildCase()
 {
 	// 创建根节点
-	mRoot = new binTreeNode(1);
-
-	// 创建其他节点
-	binTreeNode* node2 = new binTreeNode(2);
-	binTreeNode* node3 = new binTreeNode(3);
-	binTreeNode* node4 = new binTreeNode(4);
-	binTreeNode* node5 = new binTreeNode(5);
-
-	// 将节点添加到树中
-	insert(mRoot, 2, true);  // 将节点2添加为根节点的左孩子
-	insert(mRoot, 3, false); // 将节点3添加为根节点的右孩子
-	insert(node2, 4, true);  // 将节点4添加为节点2的左孩子
-	insert(node2, 5, false); // 将节点5添加为节点2的右孩子
+	mRoot = new binTreeNode(10);
+	mRoot->mLeft = new binTreeNode(5);
+	mRoot->mRight = new binTreeNode(12);
+	mRoot->mLeft->mLeft = new binTreeNode(4);
+	mRoot->mLeft->mRight = new binTreeNode(7);
+	//mRoot->mRight->mLeft = new binTreeNode(6);
+	//mRoot->mRight->mRight = new binTreeNode(7);
 }
 
 void binaryTree::printTree()
@@ -70,10 +64,38 @@ void binaryTree::printTree(binTreeNode* node, std::string indent, bool isRight)
 	}
 }
 
+void binaryTree::findPathDFS(binTreeNode* root, int target, int sum)
+{
+	if (root == nullptr)return;
+	sum += root->mValue;
+	path.push_back(root);
+	if (root->mLeft==nullptr&&root->mRight==nullptr) {
+		if (sum == target) {
+			for (auto node : path) {
+				std::cout << node->mValue << "\t";
+			}
+		}
+	}else {
+		if (root->mLeft) {
+			findPathDFS(root->mLeft, target, sum);
+		}
+		if (root->mRight) {
+			findPathDFS(root->mRight, target, sum);
+		}
+	}
+	path.pop_back();
+	sum -= root->mValue;
+}
+
 
 int binaryTree::depth()
 {
 	return GetDepth(mRoot);
+}
+
+void binaryTree::findPath(int target)
+{
+	findPathDFS(mRoot, target, 0);
 }
 
 binaryTree::binaryTree(binTreeNode* root)

@@ -148,6 +148,7 @@
     <ClCompile Include="LFUCache.cpp" />
     <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MinStack.cpp" />
+    <ClCompile Include="tools.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="binaryTree.h" />
@@ -158,6 +159,7 @@
     <ClInclude Include="LFUCache.h" />
     <ClInclude Include="LRUCache.h" />
     <ClInclude Include="MinStack.h" />
+    <ClInclude Include="tools.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
