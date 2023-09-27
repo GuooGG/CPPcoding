@@ -144,6 +144,7 @@
     <ClCompile Include="CPPcoding.cpp" />
     <ClCompile Include="BST2LinkedList.cpp" />
     <ClCompile Include="DoublyLinkedKeyNode.cpp" />
+    <ClCompile Include="DSU.cpp" />
     <ClCompile Include="hammingDistance.cpp" />
     <ClCompile Include="LFUCache.cpp" />
     <ClCompile Include="LRUCache.cpp" />
@@ -155,6 +156,7 @@
     <ClInclude Include="binTreeNode.h" />
     <ClInclude Include="BST2LinkedList.h" />
     <ClInclude Include="DoublyLinkedKeyNode.h" />
+    <ClInclude Include="DSU.h" />
     <ClInclude Include="hammingDistance.h" />
     <ClInclude Include="LFUCache.h" />
     <ClInclude Include="LRUCache.h" />

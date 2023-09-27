@@ -57,6 +57,9 @@
     <ClCompile Include="tools.cpp">
       <Filter>源文件\数据结构与算法\工具类</Filter>
     </ClCompile>
+    <ClCompile Include="DSU.cpp">
+      <Filter>源文件\数据结构与算法\工具类</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BST2LinkedList.h">
@@ -84,6 +87,9 @@
       <Filter>头文件\数据结构与算法</Filter>
     </ClInclude>
     <ClInclude Include="tools.h">
+      <Filter>头文件\数据结构与算法\工具类</Filter>
+    </ClInclude>
+    <ClInclude Include="DSU.h">
       <Filter>头文件\数据结构与算法\工具类</Filter>
     </ClInclude>
   </ItemGroup>
