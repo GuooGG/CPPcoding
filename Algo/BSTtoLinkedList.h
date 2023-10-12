@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include<queue>
+//二叉搜索树原地转换为双向链表
 //BST定义
 struct BSTreeNode {
 	int mValue;
