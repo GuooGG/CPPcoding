@@ -66,6 +66,12 @@
     <ClCompile Include="LeeCode\LRUCache.cpp">
       <Filter>源文件\LeeCode</Filter>
     </ClCompile>
+    <ClCompile Include="Algo\PrimeAlgo.cpp">
+      <Filter>源文件\Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort.cpp">
+      <Filter>源文件\Algo</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Algo\quickMul.h">
@@ -94,6 +100,12 @@
     </ClInclude>
     <ClInclude Include="LeeCode\LRUCache.h">
       <Filter>头文件\LeeCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Algo\PrimeAlgo.h">
+      <Filter>头文件\Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>头文件\Algo</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

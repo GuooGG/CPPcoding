@@ -146,6 +146,7 @@
     <ClCompile Include="Algo\BSTtoLinkedList.cpp" />
     <ClCompile Include="Algo\DSU.cpp" />
     <ClCompile Include="Algo\hammingDistance.cpp" />
+    <ClCompile Include="Algo\PrimeAlgo.cpp" />
     <ClCompile Include="Algo\qucikMul.cpp" />
     <ClCompile Include="Algo\quickMul.cpp" />
     <ClCompile Include="DataStructure\binaryTree.cpp" />
@@ -154,17 +155,20 @@
     <ClCompile Include="LeeCode\LFUCache.cpp" />
     <ClCompile Include="LeeCode\LRUCache.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Algo\BSTtoLinkedList.h" />
     <ClInclude Include="Algo\DSU.h" />
     <ClInclude Include="Algo\hammingDistance.h" />
+    <ClInclude Include="Algo\PrimeAlgo.h" />
     <ClInclude Include="Algo\quickMul.h" />
     <ClInclude Include="DataStructure\binaryTree.h" />
     <ClInclude Include="DataStructure\binTreeNode.h" />
     <ClInclude Include="DataStructure\MinStack.h" />
     <ClInclude Include="LeeCode\LFUCache.h" />
     <ClInclude Include="LeeCode\LRUCache.h" />
+    <ClInclude Include="Sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

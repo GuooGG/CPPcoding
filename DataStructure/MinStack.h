@@ -1,6 +1,7 @@
 #pragma once
 #include<memory>
 #include<iostream>
+//最小栈类型
 class MinStackElement {
 public:
 	int min;
