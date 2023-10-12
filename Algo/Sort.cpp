@@ -58,3 +58,23 @@ void Sort::insertionSort(std::vector<int>& vec)
     }
 
 }
+
+void Sort::shellSort(std::vector<int>& vec)
+{
+    int n = vec.size();
+    int h = 1;
+    while (h < n / 3) {
+        h = 3 * h + 1;
+    }
+    while (h >= 1) {
+        for (int i = h; i < n; i++) {
+            int temp = vec[i];
+            int j;
+            for (j = i; j >= h && vec[j - h] > temp; j -= h) {
+                vec[j] = vec[j - h];
+            }
+            vec[j] = temp;
+        }
+        h /= 3;
+    }
+}
