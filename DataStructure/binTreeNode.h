@@ -1,5 +1,6 @@
 #pragma once
 //二叉树节点类
+
 class binTreeNode
 {
 public:
