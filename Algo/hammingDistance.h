@@ -1,6 +1,7 @@
 #pragma once
 #include<intrin.h>
 #include<vector>
+
 //LeeCode.461	บบร๗พเภ๋
 //Date:2023/9/25 16:21
 //Author:GGO

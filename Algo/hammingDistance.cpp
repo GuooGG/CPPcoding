@@ -1,5 +1,5 @@
 #include"hammingDistance.h"
-
+//汉明距离算法
 int hammingDistance(int x, int y)
 {
 	//大多数语言内置了计算二进制表达中1的数量的函数，工程中应当直接使用
