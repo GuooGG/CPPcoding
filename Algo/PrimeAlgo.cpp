@@ -8,6 +8,7 @@ inline bool PrimeAlgo::isprime(int x)
 		}
 		return true;
 	}
+	return false;
 }
 
 std::vector<int> PrimeAlgo::sieve(int n)
