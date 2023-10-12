@@ -39,3 +39,22 @@ void Sort::selectionSort(std::vector<int>& vec)
         std::swap(vec[min_index], vec[i]);
     }
 }
+
+void Sort::insertionSort(std::vector<int>& vec)
+{
+    int n = vec.size();
+    for (int i = 1; i < n; i++) {
+        int temp = vec[i];
+        int j;
+        for (j = i - 1; j >= 0; j--) {
+            if (vec[j] > temp) {
+                vec[j + 1] = vec[j];
+            }
+            else {
+                break;
+            }
+        }
+        vec[j + 1] = temp;
+    }
+
+}
