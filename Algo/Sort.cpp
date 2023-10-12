@@ -78,3 +78,43 @@ void Sort::shellSort(std::vector<int>& vec)
         h /= 3;
     }
 }
+
+void Sort::mergeSort(std::vector<int>& vec)
+{
+    int n = vec.size();
+    std::vector<int> tmp(n);
+    merge_sort(vec, tmp, 0, n);
+}
+
+void Sort::merge_sort(std::vector<int>& vec,std::vector<int>& tmp, int left, int right)
+{
+    if (left >= right) {
+        return;
+    }
+    int mid = (right - left) >> 1 + left;
+    merge_sort(vec, tmp, left, mid);
+    merge_sort(vec, tmp, mid + 1, right);
+    //¹é²¢
+    int i = left;
+    int j = mid + 1;
+    int k = 0;
+    while (i <= mid && j <= right) {
+        if (vec[i] <= vec[j]) {
+            tmp[k++] = vec[i++];
+        }
+        else {
+            tmp[k++] = vec[j++];
+        }
+    }
+    while (i <= mid) {
+        tmp[k++] = vec[i++];
+    }
+    while (j <= right)
+    {
+        tmp[k++] = vec[j++];
+    }
+    for (int p = 0; p < k; p++) {
+        vec[left + p] = tmp[p];
+    }
+}
+

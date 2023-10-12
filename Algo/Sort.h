@@ -12,6 +12,6 @@ public:
 	void quickSort(std::vector<int>& vec);
 	void heapSort(std::vector<int>& vec);
 private:
-
+	void merge_sort(std::vector<int>& vec,std::vector<int>& tmp, int left, int right);
 };
 
