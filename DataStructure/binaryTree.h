@@ -3,6 +3,7 @@
 #include<iostream>
 #include<vector>
 //二叉树简单算法
+
 class binaryTree {
 private:
 	//树的根节点

@@ -1,5 +1,6 @@
 #include"binaryTree.h"
 
+
 void binaryTree::clear(binTreeNode* node)
 {
 	if (node != nullptr) {
