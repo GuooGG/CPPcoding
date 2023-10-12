@@ -3,6 +3,7 @@
 #include<bitset>
 #include<vector>
 #include<iostream>
+//ËØÊýËã·¨
 class PrimeAlgo
 {
 private:

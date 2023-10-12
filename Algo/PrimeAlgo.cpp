@@ -1,4 +1,5 @@
 #include "PrimeAlgo.h"
+//ËØÊýËã·¨
 inline bool PrimeAlgo::isprime(int x)
 {
 	for (int i = 2; i <= x / i; i++) {
