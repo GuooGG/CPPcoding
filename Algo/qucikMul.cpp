@@ -1,5 +1,5 @@
 #include "quickMul.h"
-
+//¿ìËÙÃÝËã·¨
 double quickMulRecursion(double x, long long n)
 {
     if (n == 0) {
