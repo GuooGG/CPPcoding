@@ -1,6 +1,6 @@
 #pragma once
 #include<vector>
-//并查集类型
+//并查集
 class DSU
 {
 private:

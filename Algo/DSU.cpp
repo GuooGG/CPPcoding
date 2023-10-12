@@ -1,5 +1,5 @@
 #include "DSU.h"
-
+//²¢²é¼¯
 DSU::DSU(int size)
 {
 	parent.resize(size);
