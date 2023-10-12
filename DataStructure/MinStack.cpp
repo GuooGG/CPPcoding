@@ -1,5 +1,5 @@
 #include "MinStack.h"
-
+//ื๎ะกีป
 MinStack::MinStack(int capacity)
 	:mCapacity(capacity)
 {
