@@ -1,7 +1,7 @@
 #pragma once
 //LeeCode.460 LFUCache
 //Date:2023/9/25 14:18
-//Author:GGO
+
 #include<unordered_map>
 class Node {
 public:
