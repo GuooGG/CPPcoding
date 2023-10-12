@@ -25,3 +25,17 @@ void Sort::bubbleSort(std::vector<int>& vec)
         }
     }
 }
+
+void Sort::selectionSort(std::vector<int>& vec)
+{
+    int n = vec.size();
+    int min_index = 0;
+    for (int i = 0; i < n-1; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (vec[min_index] > vec[j]) {
+                min_index = j;
+            }
+        }
+        std::swap(vec[min_index], vec[i]);
+    }
+}
