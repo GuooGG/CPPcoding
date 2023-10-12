@@ -88,11 +88,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -139,29 +143,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="binaryTree.cpp" />
-    <ClCompile Include="binTreeNode.cpp" />
-    <ClCompile Include="CPPcoding.cpp" />
-    <ClCompile Include="BST2LinkedList.cpp" />
-    <ClCompile Include="DoublyLinkedKeyNode.cpp" />
-    <ClCompile Include="DSU.cpp" />
-    <ClCompile Include="hammingDistance.cpp" />
-    <ClCompile Include="LFUCache.cpp" />
-    <ClCompile Include="LRUCache.cpp" />
-    <ClCompile Include="MinStack.cpp" />
-    <ClCompile Include="tools.cpp" />
+    <ClCompile Include="Algo\BSTtoLinkedList.cpp" />
+    <ClCompile Include="Algo\DSU.cpp" />
+    <ClCompile Include="Algo\hammingDistance.cpp" />
+    <ClCompile Include="Algo\qucikMul.cpp" />
+    <ClCompile Include="Algo\quickMul.cpp" />
+    <ClCompile Include="DataStructure\binaryTree.cpp" />
+    <ClCompile Include="DataStructure\binTreeNode.cpp" />
+    <ClCompile Include="DataStructure\MinStack.cpp" />
+    <ClCompile Include="LeeCode\LFUCache.cpp" />
+    <ClCompile Include="LeeCode\LRUCache.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="binaryTree.h" />
-    <ClInclude Include="binTreeNode.h" />
-    <ClInclude Include="BST2LinkedList.h" />
-    <ClInclude Include="DoublyLinkedKeyNode.h" />
-    <ClInclude Include="DSU.h" />
-    <ClInclude Include="hammingDistance.h" />
-    <ClInclude Include="LFUCache.h" />
-    <ClInclude Include="LRUCache.h" />
-    <ClInclude Include="MinStack.h" />
-    <ClInclude Include="tools.h" />
+    <ClInclude Include="Algo\BSTtoLinkedList.h" />
+    <ClInclude Include="Algo\DSU.h" />
+    <ClInclude Include="Algo\hammingDistance.h" />
+    <ClInclude Include="Algo\quickMul.h" />
+    <ClInclude Include="DataStructure\binaryTree.h" />
+    <ClInclude Include="DataStructure\binTreeNode.h" />
+    <ClInclude Include="DataStructure\MinStack.h" />
+    <ClInclude Include="LeeCode\LFUCache.h" />
+    <ClInclude Include="LeeCode\LRUCache.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

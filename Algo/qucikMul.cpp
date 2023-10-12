@@ -1,6 +1,6 @@
-#include "tools.h"
+#include "quickMul.h"
 
-double tools::quickMulRecursion(double x, long long n)
+double quickMulRecursion(double x, long long n)
 {
     if (n == 0) {
         return 1.0;
@@ -9,7 +9,7 @@ double tools::quickMulRecursion(double x, long long n)
     return n & 1 ? y * y * x : y * y;
 }
 
-double tools::quickMulInteration(double x, long long n)
+double quickMulInteration(double x, long long n)
 {
     double xContribution = x;
     double ret = 1.0;
@@ -23,7 +23,7 @@ double tools::quickMulInteration(double x, long long n)
     return ret;
 }
 
-double tools::myPow(double x, int n)
+double myPow(double x, int n)
 {
     long long N = n;
     return n > 0 ? quickMulInteration(x, N) : 1.0/quickMulInteration(x, -N);

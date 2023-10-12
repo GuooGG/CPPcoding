@@ -2,8 +2,19 @@
 //LeeCode.460 LFUCache
 //Date:2023/9/25 14:18
 //Author:GGO
-#include"DoublyLinkedKeyNode.h"
 #include<unordered_map>
+class Node {
+public:
+	int key, value, freq;
+	Node* prev, * next;
+	Node(int k = 0, int v = 0) 
+		:key(k)
+		,value(v)
+		,freq(1)
+		,prev(nullptr)
+		,next(nullptr)
+	{}
+};
 class LFUCache {
 private:
 	int mCapacity;

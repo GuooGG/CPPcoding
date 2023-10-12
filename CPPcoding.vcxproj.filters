@@ -13,84 +13,87 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="头文件\数据结构与算法">
-      <UniqueIdentifier>{bfb8d9aa-5827-4391-bef1-aa4977e119d9}</UniqueIdentifier>
+    <Filter Include="头文件\Algo">
+      <UniqueIdentifier>{8d0199a4-d497-4e8e-a660-97aa65ae52b8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\数据结构与算法">
-      <UniqueIdentifier>{9a025125-1782-4363-9fe2-1d534a19e41b}</UniqueIdentifier>
+    <Filter Include="源文件\Algo">
+      <UniqueIdentifier>{158f8a0e-b7ef-4890-9666-1541d881e858}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件\数据结构与算法\工具类">
-      <UniqueIdentifier>{3240a57a-ed8d-49f1-bb0f-50a46a00af5a}</UniqueIdentifier>
+    <Filter Include="头文件\DataStructure">
+      <UniqueIdentifier>{b483c35c-829c-45c5-a1fe-53a33ec5b049}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\数据结构与算法\工具类">
-      <UniqueIdentifier>{f16c66eb-d2e2-4c0b-a849-c9e82a16859b}</UniqueIdentifier>
+    <Filter Include="源文件\DataStructure">
+      <UniqueIdentifier>{ba8b9213-2dd3-44ca-b55d-bc4a9ce21a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LeeCode">
+      <UniqueIdentifier>{4c3defe4-59fa-4d4a-85cc-dd4f90eecaf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LeeCode">
+      <UniqueIdentifier>{98fa74f5-948e-41e9-af33-0c476789e97d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPPcoding.cpp">
+    <ClCompile Include="Algo\hammingDistance.cpp">
+      <Filter>源文件\Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="Algo\DSU.cpp">
+      <Filter>源文件\Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="Algo\BSTtoLinkedList.cpp">
+      <Filter>源文件\Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="Algo\qucikMul.cpp">
+      <Filter>源文件\Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="BST2LinkedList.cpp">
-      <Filter>源文件\数据结构与算法</Filter>
+    <ClCompile Include="Algo\quickMul.cpp">
+      <Filter>源文件\Algo</Filter>
     </ClCompile>
-    <ClCompile Include="LRUCache.cpp">
-      <Filter>源文件\数据结构与算法</Filter>
+    <ClCompile Include="DataStructure\binaryTree.cpp">
+      <Filter>源文件\DataStructure</Filter>
     </ClCompile>
-    <ClCompile Include="DoublyLinkedKeyNode.cpp">
-      <Filter>源文件\数据结构与算法\工具类</Filter>
+    <ClCompile Include="DataStructure\binTreeNode.cpp">
+      <Filter>源文件\DataStructure</Filter>
     </ClCompile>
-    <ClCompile Include="LFUCache.cpp">
-      <Filter>源文件\数据结构与算法</Filter>
+    <ClCompile Include="DataStructure\MinStack.cpp">
+      <Filter>源文件\DataStructure</Filter>
     </ClCompile>
-    <ClCompile Include="hammingDistance.cpp">
-      <Filter>源文件\数据结构与算法</Filter>
+    <ClCompile Include="LeeCode\LFUCache.cpp">
+      <Filter>源文件\LeeCode</Filter>
     </ClCompile>
-    <ClCompile Include="MinStack.cpp">
-      <Filter>源文件\数据结构与算法</Filter>
-    </ClCompile>
-    <ClCompile Include="binTreeNode.cpp">
-      <Filter>源文件\数据结构与算法\工具类</Filter>
-    </ClCompile>
-    <ClCompile Include="binaryTree.cpp">
-      <Filter>源文件\数据结构与算法</Filter>
-    </ClCompile>
-    <ClCompile Include="tools.cpp">
-      <Filter>源文件\数据结构与算法\工具类</Filter>
-    </ClCompile>
-    <ClCompile Include="DSU.cpp">
-      <Filter>源文件\数据结构与算法\工具类</Filter>
+    <ClCompile Include="LeeCode\LRUCache.cpp">
+      <Filter>源文件\LeeCode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BST2LinkedList.h">
-      <Filter>头文件\数据结构与算法</Filter>
+    <ClInclude Include="Algo\quickMul.h">
+      <Filter>头文件\Algo</Filter>
     </ClInclude>
-    <ClInclude Include="LRUCache.h">
-      <Filter>头文件\数据结构与算法</Filter>
+    <ClInclude Include="Algo\hammingDistance.h">
+      <Filter>头文件\Algo</Filter>
     </ClInclude>
-    <ClInclude Include="LFUCache.h">
-      <Filter>头文件\数据结构与算法</Filter>
+    <ClInclude Include="Algo\DSU.h">
+      <Filter>头文件\Algo</Filter>
     </ClInclude>
-    <ClInclude Include="DoublyLinkedKeyNode.h">
-      <Filter>头文件\数据结构与算法\工具类</Filter>
+    <ClInclude Include="Algo\BSTtoLinkedList.h">
+      <Filter>头文件\Algo</Filter>
     </ClInclude>
-    <ClInclude Include="hammingDistance.h">
-      <Filter>头文件\数据结构与算法</Filter>
+    <ClInclude Include="DataStructure\binaryTree.h">
+      <Filter>头文件\DataStructure</Filter>
     </ClInclude>
-    <ClInclude Include="MinStack.h">
-      <Filter>头文件\数据结构与算法</Filter>
+    <ClInclude Include="DataStructure\binTreeNode.h">
+      <Filter>头文件\DataStructure</Filter>
     </ClInclude>
-    <ClInclude Include="binTreeNode.h">
-      <Filter>头文件\数据结构与算法\工具类</Filter>
+    <ClInclude Include="DataStructure\MinStack.h">
+      <Filter>头文件\DataStructure</Filter>
     </ClInclude>
-    <ClInclude Include="binaryTree.h">
-      <Filter>头文件\数据结构与算法</Filter>
+    <ClInclude Include="LeeCode\LFUCache.h">
+      <Filter>头文件\LeeCode</Filter>
     </ClInclude>
-    <ClInclude Include="tools.h">
-      <Filter>头文件\数据结构与算法\工具类</Filter>
-    </ClInclude>
-    <ClInclude Include="DSU.h">
-      <Filter>头文件\数据结构与算法\工具类</Filter>
+    <ClInclude Include="LeeCode\LRUCache.h">
+      <Filter>头文件\LeeCode</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
