@@ -1,6 +1,5 @@
 #include"LRUCache.h"
 
-
 void LRUCache::remove(Node* node)
 {
 	node->prev->next = node->next;
