@@ -1,4 +1,28 @@
-#include "MinStack.h"
+#include <memory>
+#include <iostream>
+
+// ?????
+class MinStackElement
+{
+public:
+	int min;
+	int data;
+};
+class MinStack
+{
+private:
+	int mCapacity;
+	int top;
+	MinStackElement *data;
+
+public:
+	MinStack(int capacity);
+	~MinStack();
+	int min();
+	void push(int d);
+	int pop();
+};
+
 //×îÐ¡Õ»
 MinStack::MinStack(int capacity)
 	:mCapacity(capacity)

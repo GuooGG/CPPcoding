@@ -1,4 +1,9 @@
-#include "quickMul.h"
+// ???????
+double quickMulRecursion(double x, long long n);
+// ???????
+double quickMulInteration(double x, long long n);
+double myPow(double x, int n);
+
 //øÏÀŸ√›À„∑®
 double quickMulRecursion(double x, long long n)
 {
