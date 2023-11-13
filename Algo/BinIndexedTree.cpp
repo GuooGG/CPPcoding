@@ -9,16 +9,11 @@
  * 
  */
 #include<vector>
+#include<iostream>
 
 class BinIndexedTree{
 public:
-    void add(int x, int n)
-    {
-        for (int i = x; i <= n; i += lowbit(i))
-        {
-            tree[i] += n;
-        }
-    }
+
     int query(int x)
     {
         int ans = 0;
@@ -28,6 +23,14 @@ public:
         }
         return ans;
     }
+
+    std::vector<int> nums;
+    void update(int index, int val)
+    {
+        add(index + 1, val);
+        nums[index] = val;
+    }
+
     BinIndexedTree(std::vector<int> &arr)
     {
         this->nums = arr;
@@ -38,7 +41,6 @@ public:
             add(i + 1, nums[i]);
         }
     }
-    std::vector<int> nums;
 
 private:
     int lowbit(int x)
@@ -46,11 +48,19 @@ private:
         return x & -x;
     }
 
-    void update(int index, int val){
-        add(index + 1, val);
-        nums[index] = val;
+    void add(int x, int n)
+    {
+        for (int i = x; i <= n; i += lowbit(i))
+        {
+            tree[i] += n;
+        }
     }
 
     std::vector<int> tree;
     int n = 0;
 };
+
+int main(){
+    
+    return 0;
+}
